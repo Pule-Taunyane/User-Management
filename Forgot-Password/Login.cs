@@ -14,7 +14,7 @@ namespace Forgot_Password
     public partial class Login : Form
     {
         SqlDataReader dr;
-        SqlConnection con = new SqlConnection("");
+        SqlConnection con = new SqlConnection("Data Source=sqlserver.dynamicdna.co.za;Initial Catalog=User-Management-System-Lerato;Persist Security Info=True;User ID=BBD;Password=***********");
         public Login()
         {
             InitializeComponent();
